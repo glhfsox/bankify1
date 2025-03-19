@@ -1,0 +1,17 @@
+[build]
+  command = "bun run build"
+  publish = "build"
+
+[build.environment]
+  NEXT_TELEMETRY_DISABLED = "1"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[images]
+  remote_images = [
+    "https://source.unsplash.com/**",
+    "https://images.unsplash.com/**",
+    "https://ext.same-assets.com/**",
+    "https://ugc.same-assets.com/**"
+  ]
