@@ -2,8 +2,6 @@
 
 Bankify is a modern banking website template built with Next.js and deployed on Vercel. It offers a clean, professional design with features like transaction monitoring, spending analysis, and secure transfers.
 
-![Bankify Screenshot](https://ext.same-assets.com/2467056450/1798686321.png)
-
 ## Features
 
 - 📱 Fully responsive design
