@@ -52,15 +52,7 @@ export function Navbar() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/deployment"
-              className={`flex items-center gap-1.5 px-2.5 py-1 bg-gradient-to-r from-black to-gray-800 text-white rounded-full text-xs hover:opacity-90 transition-opacity ${
-                pathname === "/deployment" ? "ring-2 ring-primary ring-offset-2" : ""
-              }`}
-            >
-              <Zap className="h-3.5 w-3.5" />
-              <span>Vercel Deployment</span>
-            </Link>
+  
           </nav>
 
           <div className="hidden md:flex items-center gap-3">
