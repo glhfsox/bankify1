@@ -137,9 +137,6 @@ export function Footer() {
               <Link href="#" className="text-xs text-muted-foreground hover:text-primary">
                 Privacy Policy
               </Link>
-              <div className="flex items-center bg-gray-100 rounded-full px-3 py-1 text-xs">
-                <span className="text-green-600 font-medium mr-1.5">●</span> Deployed on Vercel
-              </div>
             </div>
           </div>
         </div>
