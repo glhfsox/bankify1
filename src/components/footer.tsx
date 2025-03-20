@@ -104,21 +104,6 @@ export function Footer() {
                       </Button>
                     </Link>
                   </div>
-
-                  <div className="bg-black text-white p-4 rounded-lg">
-                    <div className="flex items-center gap-2 mb-3">
-                      <Globe className="h-4 w-4" />
-                      <h4 className="text-sm font-medium">Custom Domain</h4>
-                    </div>
-                    <p className="text-xs text-gray-300 mb-3">
-                      Visit our site on your own custom domain.
-                    </p>
-                    <Link href="https://vercel.com/docs/custom-domains" target="_blank">
-                      <Button size="sm" variant="secondary" className="w-full bg-white text-black hover:bg-gray-200">
-                        Set Up Domain
-                      </Button>
-                    </Link>
-                  </div>
                 </div>
               </div>
             </div>
